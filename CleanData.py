@@ -1,7 +1,5 @@
 # Theo Chambers - BigData# 
 
-#Assignment 1 - P3, Data Preparation#
-
 import pandas as pd 
 import numpy as np
 
