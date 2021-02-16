@@ -11,4 +11,4 @@ Recommendation engine output ->P3Output.txt
 
 Summary: 
 This repository contains an item based collaborative filter. I built a recommender class with python module MrJob on the netflix movie set (available on kaggle). 
-To run, first run Clean_data which will output the cleaned text file, and then use the text file to run the recommendation engine.
+To run, first run Clean_data which will output the cleaned text file, and then use the text file to run the recommendation engine. The recommender class computes movie similarities based on the cosine similarity.
