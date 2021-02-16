@@ -8,7 +8,7 @@ from itertools import combinations
 
 #make sure to run pip install sklearn if no sklearn package installed
 
-class NetflixRecommender(MRJob):
+class Recommender(MRJob):
     def steps(self):
         return [
             MRStep(mapper = self.read_input,reducer=self.reducer),
@@ -71,8 +71,8 @@ class NetflixRecommender(MRJob):
             yield i,key
     
 if __name__ == '__main__':
-    NetflixRecommender.run()
+    Recommender.run()
 
 # to run from command line # 
 # cd (to your directory)
-# run python Netflix.py CleanMovieData.txt > P3.txt
+# run python Recommender.py CleanMovieData.txt > P3.txt
