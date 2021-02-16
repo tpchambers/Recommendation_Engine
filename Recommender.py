@@ -6,7 +6,6 @@ from mrjob.step import MRStep
 from sklearn.metrics.pairwise import cosine_similarity
 from itertools import combinations 
 
-#make sure to run pip install sklearn if no sklearn package installed
 
 class Recommender(MRJob):
     def steps(self):
