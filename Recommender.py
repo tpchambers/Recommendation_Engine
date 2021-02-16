@@ -74,4 +74,4 @@ if __name__ == '__main__':
 
 # to run from command line # 
 # cd (to your directory)
-# run python Recommender.py CleanMovieData.txt > P3.txt
+# run python Recommender.py CleanMovieData.txt > name.txt # replace name with name of .txt file output
