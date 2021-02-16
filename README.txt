@@ -6,5 +6,4 @@ Cleaning script ->CleanNetflix.py
 
 Recommendation engine -> NetflixP3.py
 Recommendation engine output ->P3Output.txt
-Summary- P3-Summary
 
